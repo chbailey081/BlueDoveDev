@@ -18,7 +18,7 @@ h1, h3 {
 }
 
 #showcase {
-    background: url('img/anna-wangler-_GqwoiT7QY8-unsplash.jpg') no-repeat center / cover;
+    background: url('https://images.unsplash.com/photo-1547856699-f13e904de06c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80') no-repeat center / cover;
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -126,8 +126,13 @@ h1, h3 {
     transform: skew(0deg, -30deg);
   }
 
+ #about{
+  padding-bottom: none;
+ }
+
   #skills {
     height: 50vh;
+    background-color: green;
   }
 
   #portfolio {
