@@ -13,12 +13,13 @@ h1, h3 {
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
+    text-align: right;
     background: transparent;    
 }
 
 #showcase {
     background: url('img/anna-wangler-_GqwoiT7QY8-unsplash.jpg') no-repeat center / cover;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -60,6 +61,8 @@ h1, h3 {
     font-family: 'Satisfy', cursive;
     color: #D1F2EB;
 }
+
+
 
 #headshot{
     align-content: left;
@@ -123,13 +126,14 @@ h1, h3 {
     transform: skew(0deg, -30deg);
   }
 
+  #skills {
+    height: 50vh;
+  }
+
   #portfolio {
     height: 100vh;
   }
 
-  #pcard {
-    height: 20px;
-  }
   
   @keyframes move {
     25% {
