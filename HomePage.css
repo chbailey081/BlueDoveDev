@@ -3,7 +3,6 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Concert One', cursive;
-    height: 100vh;
 }
 
 
@@ -19,7 +18,7 @@ h1, h3 {
 
 #showcase {
     background: url('img/anna-wangler-_GqwoiT7QY8-unsplash.jpg') no-repeat center / cover;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -122,6 +121,14 @@ h1, h3 {
     right: 0;
     width: 50%;
     transform: skew(0deg, -30deg);
+  }
+
+  #portfolio {
+    height: 100vh;
+  }
+
+  #pcard {
+    height: 20px;
   }
   
   @keyframes move {
