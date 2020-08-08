@@ -2,6 +2,7 @@ body {
     background: url();
     background-size: cover;
     background-position: center;
+    background-color: #D1F2EB;
     font-family: 'Concert One', cursive;
 }
 
@@ -67,6 +68,7 @@ h1, h3 {
 #headshot{
     align-content: left;
     max-width: 100%;
+    max-height: 50%;
 }
 
 
@@ -137,39 +139,12 @@ h1, h3 {
   }
 
   #portfolio {
-    height: 100vh;
-    background-color: red;
+    height: 50vh;
+    /*background-color: darkgreen;*/
   }
 
-  
-  @keyframes move {
-    25% {
-      opacity: 1;
-  
-    }
-    33% {
-      opacity: 1;
-      transform: translateY(30px);
-    }
-    67% {
-      opacity: 1;
-      transform: translateY(40px);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-    }
-  }
-    
-  @keyframes pulse {
-    to {
-      opacity: 1;
-    }
-  }
-  */
 
-
-*.jumbotron {
+.jumbotron {
     background-color: #D1F2EB;
     margin-bottom: 0;
 
@@ -181,4 +156,28 @@ h1, h3 {
 }
 
 
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+  
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
 
