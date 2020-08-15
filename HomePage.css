@@ -1,11 +1,17 @@
 body {
-    background: url();
+   
     background-size: cover;
     background-position: center;
-    background-color: #D1F2EB;
+    background-color: #fcfdfd;
     font-family: 'Concert One', cursive;
 }
 
+h1{
+  text-align: center;
+  font-weight: 300;
+  border-bottom: inherit;
+
+}
 
 h1, h3 {
     padding-bottom: 1rem;
@@ -32,6 +38,10 @@ h1, h3 {
     position: sticky;
     width: 100%;
     z-index: -1;
+}
+
+#showcase h1 {
+  text-decoration: none;
 }
 
 
@@ -64,11 +74,13 @@ h1, h3 {
 }
 
 
-
 #headshot{
     align-content: left;
-    max-width: 100%;
-    max-height: 50%;
+}
+
+#headshot img{
+  max-width:100%;
+    height:auto;
 }
 
 
@@ -133,27 +145,7 @@ h1, h3 {
   margin-bottom: none;
  }
 
-  #skills {
-    height: 50vh;
-    background-color: green;
-  }
-
-  #portfolio {
-    height: 50vh;
-    /*background-color: darkgreen;*/
-  }
-
-
-.jumbotron {
-    background-color: #D1F2EB;
-    margin-bottom: 0;
-
-}
-
-.jumbotron h1 {
-    font-size: 2.5em; 
-
-}
+ 
 
 
 @keyframes move {
