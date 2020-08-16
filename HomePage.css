@@ -1,9 +1,11 @@
+
 body {
    
     background-size: cover;
     background-position: center;
     background-color: #fcfdfd;
     font-family: 'Concert One', cursive;
+    font-size: 1.125rem;
 }
 
 h1{
@@ -15,6 +17,20 @@ h1{
 
 h1, h3 {
     padding-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+section {
+  padding: 1em;
+}
+
+hr.style-two {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(34, 144, 172, 0.75), rgba(0, 0, 0, 0));
 }
 
 #mainNavbar {
@@ -40,9 +56,7 @@ h1, h3 {
     z-index: -1;
 }
 
-#showcase h1 {
-  text-decoration: none;
-}
+
 
 
 /*
@@ -65,6 +79,7 @@ h1, h3 {
     font-weight: 600;
     font-family: 'Satisfy', cursive;
     color: #D1F2EB;
+    text-decoration: none;
 }
 
 #showcase h2 {
@@ -83,93 +98,64 @@ h1, h3 {
     height:auto;
 }
 
-
-#showcasw, #ScrollDown{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: bottom;
-    width: 100%;
-    height: 0;
-  
-}
-
-
-#ScrollDown .container {
-    position: relative;
-    width: 24px;
-    height: 24px;
-  }
-
-
-  #ScrollDown .chevron {
-    position: absolute;
-    width: 28px;
-    height: 8px;
-    opacity: 0;
-    transform: scale3d(0.5, 0.5, 0.5);
-    animation: move 3s ease-out infinite;
-  }
-  
-  #ScrollDown .chevron:first-child {
-    animation: move 3s ease-out 1s infinite;
-  }
-  
-  #ScrollDown .chevron:nth-child(2) {
-    animation: move 3s ease-out 2s infinite;
-  }
-  
-  #ScrollDown .chevron:before,
-  .chevron:after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 51%;
-    background-color: #D1F2EB;
-  }
-  
-  #ScrollDown .chevron:before {
-    left: 0;
-    transform: skew(0deg, 30deg);
-  }
-  
-  #ScrollDown .chevron:after {
-    right: 0;
-    width: 50%;
-    transform: skew(0deg, -30deg);
-  }
-
  #about{
   padding-bottom: none;
   margin-bottom: none;
  }
 
- 
+ #skills{
+   text-align: center;
+ }
 
 
-@keyframes move {
-  25% {
-    opacity: 1;
+/* Arrow annimation*/
 
-  }
-  33% {
-    opacity: 1;
-    transform: translateY(30px);
-  }
-  67% {
-    opacity: 1;
-    transform: translateY(40px);
-  }
-  100% {
-    opacity: 0;
-    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
-  }
-}
-  
-@keyframes pulse {
-  to {
-    opacity: 1;
-  }
+.arrows {
+	width: 80px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
 }
 
+.arrows path {
+	stroke: #fcfcfc;
+	fill: transparent;
+	stroke-width: 3px;	
+	animation: arrow 3s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+/* Arrow Media queries*/
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
