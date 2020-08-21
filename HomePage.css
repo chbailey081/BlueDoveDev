@@ -114,6 +114,7 @@ hr.style-two {
 
  #footer {
    justify-content: space-around;
+   align-items: flex-end;
    
  }
 
@@ -122,14 +123,14 @@ hr.style-two {
    max-height: auto;
    border-radius: 20px;
    padding: 20px;
-   justify-items: auto;
+   
  }
 
 
  .contact {
    max-width: 200px;
-   max-height: 300px;
-   
+   max-height: 200px;
+
  }
 
 /* Arrow annimation*/
