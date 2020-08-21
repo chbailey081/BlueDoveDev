@@ -79,14 +79,15 @@ hr.style-two {
 #showcase h1 {
     font-size: 3.5rem;
     font-weight: 600;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Major Mono Display', monospace;
     color: #D1F2EB;
     text-decoration: none;
+    justify-content: end;
 }
 
 #showcase h2 {
     font-size: 2rem;
-    font-family: 'Satisfy', cursive;
+    font-family: 'Major Mono Display', monospace;
     color: #D1F2EB;
 }
 
