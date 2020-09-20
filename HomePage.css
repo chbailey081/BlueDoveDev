@@ -29,6 +29,12 @@ section {
   padding: 1em;
 }
 
+hr.style-one {
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(150, 170, 175, 0.75), rgba(0, 0, 0, 0));
+}
+
 hr.style-two {
   border: 0;
   height: 2px;
@@ -151,6 +157,10 @@ hr.style-two {
    text-align: center;
    /*background-color: #D1F2EB;
    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(34, 144, 172, 0.75), rgba(0, 0, 0, 0));*/
+ }
+
+ #skills p{
+   font-size: 1.5rem;
  }
 
  #footer {
