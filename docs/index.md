@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="HomePage.css" >
+
+    <title>Chris Bailey | BlueDove Dev!</title>
+  </head>
+  <body>
+<!-- NavBar-->
+    <div class="container-fluid">
+
+        <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+            <a class="navbar-brand" href="#">CB</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+    </div>
+
+ <!-- LandingPage-->   
+
+      <header id="showcase" class="scale-in-hor-center">
+
+      
+
+
+
+          <h1>Front End Developer & UX/UI Designer in the making</h1>
+          <hr class="container style-one">
+          <h2>Hi, I'm Chris and Welcome to BlueDove Dev.</h2>
+        
+          <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+          </svg>
+
+       <!--
+        <div class="row">
+          <div class="col-4-lg md-6">
+            <img id="headshot" src="img/Chris-Bailey-headshot.png">
+          </div>
+        </div>
+      -->
+      </header>
+
+      
+
+ <!-- About -->   
+<!-- Fade in header centered. Animate body from right after scrolling-->
+<section id="about">
+     
+        <div class="container">
+              <h1>A Bit About Me</h1>
+         
+              <p class="lead">I’d been interested in web development and design for a number of years, fascinated by some of the amazing websites 
+                I’ve seen while casually browsing the web. One day, tired of the monotonous repetition of my role as a Q/A assistant in a 
+                laboratory, I made the decision to explore that fascination a bit more. From there, I discovered the wonderful world of Web development! 
+                I have a passion for UX/UI Design, though I still have a lot to learn. 
+              </p>
+      </div>
+     
+</section>
+
+<hr class="container style-two">
+   <!-- skills-->   
+   <!-- Fade in H1 and body content from center--> 
+  <section id="skills">
+      <div class="container">
+
+      <h1>Things I Know!</h1>
+        <div class="row">
+            <ul class="col-sm-6">
+                <p>HTML/CSS</p>
+                <p>SCSS/SASS</p>
+                <p>Vanilla JavaScript</p>
+                <p>Bootstrap</p>
+                <p>Email Development</p>
+            </ul>
+            <ul class="col-sm-6">
+                <p>SQL</p>
+                <p>Responsive Design</p>
+                <p>Mobile First Design</p>
+                <p>jQuery</p>
+                <p>AJAX</p>
+            </ul>
+            <!--<ul class="col-sm-4">
+                <p>Git/Github</p>
+                <p>Vue.JS</p>
+                <p>React.JS</p>
+                <p>Node.js</p>
+            </ul>-->
+        </div>
+      </div>       
+    </section>
+    
+<hr class="container style-two">
+
+ <!-- Portfolio-->  
+<section id="portfolio">
+ <div class="container" id="portfolio">
+    <h1>Projects</h1>
+        <div class="row">
+
+            <div class="col-xl-6 md-6"> 
+                <div class="card">
+                    <a href="https://al-anon.org/">
+                        <img src="/img/Screen Shot 2020-08-21 at 3.05.01 PM.png" class="card-img-top" alt="I like turtles.">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">A non profit business, where i helped in the redsigning and hard coding an entire new and updated site. 
+                        The site has since been updated.</p>
+                      <a href="https://al-anon.org/" class="btn btn-primary">Go here to see more. </a>
+                    </div>
+        
+                  </div>
+            </div>
+    
+            <div class="col-xl-6 md-6"> 
+                <div class="card">
+                    <a href="">
+                        <img src="image" class="card-img-top" alt="I like turtles.">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">A fun, simple web app I built as a dice roller for DnD. </p>
+                      <a href="#" class="btn btn-primary">Go here to see more.</a>
+                    </div>
+        
+                  </div>
+            </div>
+        
+    
+        </div>
+  </div>
+
+
+</section>
+
+<hr  class="container style-two">
+
+       <!-- contact-->   
+       <!-- Animate all logo's from left upon scrolling--> 
+       <h1>Reach out</h1> 
+  <section class="container" id="contact">
+       <div>
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Please include your prefered email or other form of contact..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+  </section>    
+
+  <hr class="container style-two">
+
+    <section id="footer">
+
+        <div class="container">
+          <h1>You Can Find Me</h1>
+          <div class="row d-flex justify-content-around">
+            <div class="col-md-4 sm-6"><!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#777"></rect>
+              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>-->
+              <a href="https://github.com/chbailey081">
+                <img class="contact" src="/img/Daco_644610.png"></a>
+                <p>GitHub</p>
+              </div>
+            <div class="col-md-4 sm-6">
+              <a href="https://www.linkedin.com/in/christopher-bailey-8b66ba148/">
+                <img class="contact" src="/img/Daco_4859656.png"></a>
+                <p>Linkedin</p>
+              </div>
+            <div class="col-md-4 sm-6">
+              <a href="mailto:baileychristopher808@gmail.com" target="_blank">
+                <img class="contact" src="/img/Daco_4063341.png"></a>
+                <p>Email</p>
+              </div>
+          </div>
+        </div>
+
+
+  </section>
+<script src="HomePage.js"></script>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
