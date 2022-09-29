@@ -177,6 +177,9 @@ hr.style-two {
    
  }
 
+ #footer p {
+   justify-content: center;
+ }
 
  .contact {
    max-width: 200px;
